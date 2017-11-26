@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Comikz</string>
+    <string name="default_generic_error">Ups! Ocurrio un error, intenta devuelta mas tarde</string>
+    <string name="love_it">Mark as Favorite</string>
+</resources>

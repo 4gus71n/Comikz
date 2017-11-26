@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.comikz.ui.views.MangaChapterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_manga_chapter_container"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="@dimen/app_normal_padding"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            tools:text="Titleeeeee"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/view_manga_chapter_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/colorGreyLight2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+</com.comikz.ui.views.MangaChapterView>
